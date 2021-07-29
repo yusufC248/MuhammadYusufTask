@@ -3,4 +3,5 @@
     <string name="textSoalSatu">Buatlah aplikasi untuk menampilkan “Hello” dan “World” dengan ketentuan berikut ini. Jika input bilangan habis di bagi 3 menampilkan kata “Hello”. Jika input bilangan habis di bagi 5 menampilkan kata “World”. Jika input bilangan habis di bagi 5 dan 3 menampilkan kata “Hello World”.</string>
     <string name="soalDua">buatlah aplikasi untuk membalik / reverse kalimat yang di input</string>
     <string name="soalLima">Buatlah soal sederhana untuk mengecek kalimat polindrom</string>
+    <string name="soalTiga">Buatlah aplikasi sederhana untuk mengkonversi waktu tanpa menggunakan fungsi / class DateTime</string>
 </resources>
