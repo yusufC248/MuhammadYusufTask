@@ -20,11 +20,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="muhammadyusuf2405@gmail.com"
+        android:text="muhammad.yusuf18010@student.unsika.ac.id"
         android:gravity="center"
         android:textColor="#DA0037"
         android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="15sp"/>
 
     <TextView
         android:layout_width="match_parent"

@@ -4,4 +4,5 @@
     <string name="soalDua">buatlah aplikasi untuk membalik / reverse kalimat yang di input</string>
     <string name="soalLima">Buatlah soal sederhana untuk mengecek kalimat polindrom</string>
     <string name="soalTiga">Buatlah aplikasi sederhana untuk mengkonversi waktu tanpa menggunakan fungsi / class DateTime</string>
+    <string name="soal">Buatlah aplikasi sederhana untuk melakukan check format email</string>
 </resources>

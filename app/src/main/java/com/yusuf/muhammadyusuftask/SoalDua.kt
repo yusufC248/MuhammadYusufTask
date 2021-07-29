@@ -18,9 +18,13 @@ class SoalDua : AppCompatActivity() {
                 "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" +
                 "(" +
                 "\\." +
-                "id" +
-                "+|"+
+                "?.id" +
+                "|."+
+                "("+
                 "co"+
+                "\\."+
+                "id"+
+                ")"+
                 ")+"
     )
 
@@ -31,9 +35,6 @@ class SoalDua : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
 
-        val email: String = "yusuf@.gmail.co.id"
-        val wronge: String = "yusuf@.gmail.com"
-
         fun isValid(str:String) :Boolean {
            return SYARAT_EMAIL.matcher(str).matches()
         }
@@ -41,7 +42,12 @@ class SoalDua : AppCompatActivity() {
 
         binding.btnn.setOnClickListener {
             val tulisan = binding.tulisan.text.toString()
-            binding.hasil.text = "${isValid(tulisan)}"
+            val konfirmValid = "${isValid(tulisan)}"
+            if(konfirmValid == "true"){
+                binding.hasil.text = "${isValid(tulisan)}"+" Email Valid"
+            }else{
+                binding.hasil.text = "${isValid(tulisan)}"+" Email tidak valid"
+            }
         }
 
     }
